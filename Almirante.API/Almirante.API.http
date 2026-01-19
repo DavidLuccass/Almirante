@@ -1,0 +1,6 @@
+@Almirante.API_HostAddress = http://localhost:5216
+
+GET {{Almirante.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
