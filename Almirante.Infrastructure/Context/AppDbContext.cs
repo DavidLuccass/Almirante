@@ -27,5 +27,6 @@ namespace Almirante.Infrastructure.Context
     public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) {}
     
     public DbSet<ObraDeArte> Obras { get; set; }
+    public DbSet<Usuario> Usuarios { get; set; }
     }
 }
